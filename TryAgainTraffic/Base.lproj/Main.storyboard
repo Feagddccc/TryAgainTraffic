@@ -16,20 +16,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TcQ-RJ-aOV">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TcQ-RJ-aOV">
                                 <rect key="frame" x="165" y="287" width="100" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="TcQ-RJ-aOV" secondAttribute="height" multiplier="1:1" id="Qbl-O6-t31"/>
+                                </constraints>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="x2f-NK-NSA">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="x2f-NK-NSA">
                                 <rect key="frame" x="165" y="104" width="100" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemRedColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="x2f-NK-NSA" secondAttribute="height" multiplier="1:1" id="bjB-rf-5YP"/>
+                                </constraints>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MS1-oS-g8M">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MS1-oS-g8M">
                                 <rect key="frame" x="165" y="475" width="100" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="MS1-oS-g8M" secondAttribute="height" multiplier="1:1" id="Hzc-7g-hhN"/>
+                                </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jOl-5e-cUq">
                                 <rect key="frame" x="172" y="781" width="87" height="35"/>
@@ -40,11 +46,22 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="x2f-NK-NSA" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="3KD-9D-aLt"/>
+                            <constraint firstItem="MS1-oS-g8M" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.107296" id="61q-K2-7Hi"/>
+                            <constraint firstItem="MS1-oS-g8M" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="BKS-3V-Net"/>
+                            <constraint firstItem="x2f-NK-NSA" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.107296" id="CBK-7p-VgW"/>
+                            <constraint firstItem="TcQ-RJ-aOV" firstAttribute="top" secondItem="x2f-NK-NSA" secondAttribute="bottom" constant="83" id="Dfx-94-KCp"/>
+                            <constraint firstItem="MS1-oS-g8M" firstAttribute="top" secondItem="TcQ-RJ-aOV" secondAttribute="bottom" constant="88" id="H0H-Ao-c0b"/>
+                            <constraint firstItem="TcQ-RJ-aOV" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.107296" id="Vsx-Lj-Ohw"/>
+                            <constraint firstItem="x2f-NK-NSA" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="45" id="atn-BY-nfJ"/>
+                            <constraint firstItem="TcQ-RJ-aOV" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="jxv-be-WJM"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="540" y="38.626609442060087"/>
+            <point key="canvasLocation" x="504" y="31"/>
         </scene>
     </scenes>
     <resources>
