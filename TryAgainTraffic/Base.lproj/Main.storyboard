@@ -37,11 +37,10 @@
                                     <constraint firstAttribute="width" secondItem="MS1-oS-g8M" secondAttribute="height" multiplier="1:1" id="Hzc-7g-hhN"/>
                                 </constraints>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jOl-5e-cUq">
-                                <rect key="frame" x="172" y="781" width="87" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jOl-5e-cUq">
+                                <rect key="frame" x="177.66666666666666" y="803.66666666666663" width="75" height="34.333333333333371"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Button"/>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -55,13 +54,15 @@
                             <constraint firstItem="MS1-oS-g8M" firstAttribute="top" secondItem="TcQ-RJ-aOV" secondAttribute="bottom" constant="88" id="H0H-Ao-c0b"/>
                             <constraint firstItem="TcQ-RJ-aOV" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.107296" id="Vsx-Lj-Ohw"/>
                             <constraint firstItem="x2f-NK-NSA" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="45" id="atn-BY-nfJ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="jOl-5e-cUq" secondAttribute="bottom" constant="60" id="eQR-Gq-gcZ"/>
                             <constraint firstItem="TcQ-RJ-aOV" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="jxv-be-WJM"/>
+                            <constraint firstItem="jOl-5e-cUq" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="rgZ-HC-CFR"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="504" y="31"/>
+            <point key="canvasLocation" x="503.72093023255815" y="30.901287553648071"/>
         </scene>
     </scenes>
     <resources>
