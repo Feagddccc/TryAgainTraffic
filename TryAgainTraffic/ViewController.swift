@@ -38,6 +38,13 @@ class ViewController: UIViewController {
         redLight.frame.width / 2
         yellowLight.layer.cornerRadius = yellowLight.frame.width / 2
         greenLight.layer.cornerRadius = greenLight.frame.width / 2
+    }
+    
+    override func viewWillLayoutSubviews() {
+        redLight.layer.cornerRadius = redLight.frame.width / 2
+        yellowLight.layer.cornerRadius = yellowLight.frame.width / 2
+        greenLight.layer.cornerRadius = greenLight.frame.width / 2
+    }
         
         @IBAction func starButtonPressed() {
             if startButton.currentTitle == "Start" {
@@ -61,6 +68,4 @@ class ViewController: UIViewController {
         }
     }
 
-
-}
 
