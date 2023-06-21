@@ -38,9 +38,12 @@
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jOl-5e-cUq">
-                                <rect key="frame" x="177.66666666666666" y="803.66666666666663" width="75" height="34.333333333333371"/>
+                                <rect key="frame" x="184.33333333333334" y="803" width="61.333333333333343" height="35"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Start"/>
+                                <connections>
+                                    <action selector="starButtonPressed" destination="BYZ-38-t0r" eventType="touchUpInside" id="21S-nO-Iio"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -59,10 +62,16 @@
                             <constraint firstItem="jOl-5e-cUq" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="rgZ-HC-CFR"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="greenLight" destination="MS1-oS-g8M" id="Ip6-3z-QSq"/>
+                        <outlet property="redLight" destination="x2f-NK-NSA" id="AZh-C0-4Fq"/>
+                        <outlet property="startButton" destination="jOl-5e-cUq" id="niz-nn-TWW"/>
+                        <outlet property="yellowLight" destination="TcQ-RJ-aOV" id="gBZ-WX-hWU"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="470" y="23"/>
+            <point key="canvasLocation" x="-186" y="8"/>
         </scene>
     </scenes>
     <resources>
